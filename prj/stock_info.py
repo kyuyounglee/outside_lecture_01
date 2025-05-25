@@ -22,7 +22,7 @@ class Stock:
 
 # Example usage:  main
 if __name__ == "__main__":
-    stock = Stock('005930.KS') 
+    stock = Stock('005930.KS')         
     print(stock.get_basic_info())
     print(stock.get_financials_statements())
 
